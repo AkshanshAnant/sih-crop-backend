@@ -32,6 +32,7 @@ router.post('/', authMiddleware, async (req, res) => {
     preferredCrop,
     farmSizeAcres,
   };
+  
 
   try {
     let profile = await farmerProfile.findOne({ userId: req.user.id });
