@@ -1,4 +1,11 @@
-# Multi-Agent Powered Smart Farming Assistant — Backend
+# Smart Farming Advisory Chatbot — Backend (Node/Express + MongoDB)
+
+## Repositories of the Frontend and LLM Developed:
+
+- `Frontend`: React/Vite app: https://github.com/sp4m-08/sih-crop-frontend
+- `LLM/Agent`: Crop Chat Agent (FastAPI + LangGraph)
+  - Repo: https://github.com/Keshavgoyal14/crop-chat-agent
+  - API: https://crop-chat-agent.onrender.com/api/v1/chat
 
 Node.js/Express + MongoDB backend for the Smart Farming Assistant. Handles:
 
@@ -32,7 +39,12 @@ Node.js/Express + MongoDB backend for the Smart Farming Assistant. Handles:
 
 External AI agent endpoint used by this backend:
 
-- `https://crop-chat-agent.onrender.com/api/v1/chat`
+- Crop Chat Agent (FastAPI + LangGraph): `https://crop-chat-agent.onrender.com/api/v1/chat`
+
+Frontend integration:
+
+- This backend is consumed by the React/Vite frontend at `frontend/`.
+  - Frontend repo (as referenced in the main README): `https://github.com/sp4m-08/sih-crop-frontend`
 
 ---
 
