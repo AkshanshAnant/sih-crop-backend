@@ -268,6 +268,8 @@ Partial update.
 - **Mongo errors / DB connection failures**: check `MONGODB_URI`
 - **LLM agent errors**: check reachability of `https://crop-chat-agent.onrender.com/api/v1/chat`
 
+Helped By Akshansh Anant.
+
 ---
 
 ## License
